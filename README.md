@@ -9,3 +9,8 @@ pip install Django==1.9 Unipath
 ```sh
 $ python manage.py runserver --settings=project.settings.local
 ```
+
+### Crear nuevo módulo
+```sh
+$ python manage.py startapp [nombreModulo]
+```
